@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            color: blue;
+        }
+
+        .internal-style {
+            background-color: lightgreen;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+
+    
+    <link rel="stylesheet" href="external.css">
+</head>
+<body>
+
+    
+    <h1 style="color: red;">Inline CSS Example</h1>
+    
+    <p style="font-size: 20px; color: purple;">This paragraph is of inline CSS.</p>
+
+    <div class="internal-style">
+        This div has internal CSS applied.
+    </div>
+
+    <div class="external-style">
+        This div has external CSS applied .
+    </div>
+
+</body>
+</html>
